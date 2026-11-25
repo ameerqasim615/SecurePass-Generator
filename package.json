@@ -1,0 +1,12 @@
+{
+  "name": "resumeai",
+  "private": true,
+  "version": "0.1.0",
+  "description": "ResumeAI - Smart AI Resume Builder (monorepo convenience scripts)",
+  "scripts": {
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build:frontend": "npm --prefix frontend run build",
+    "typecheck": "npm --prefix frontend run typecheck",
+    "test:frontend": "npm --prefix frontend run test"
+  }
+}
